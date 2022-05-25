@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <li> <a href="./index.html"> Home </a></li>
+    
+    <h2>Q1</h2>
+    
+    <script>
+
+        document.write("Result:", "<br>",) ;
+        let a = "10"
+        document.write("The value of a is:", (a), "<br>", "<br>",) ;
+        ++a
+        document.write("The value of ++a is:", (a), "<br>") ;
+        document.write("Now the value of a is:", (a), "<br>", "<br>") ;
+        document.write("The value of a++ is:", (a), "<br>") ;
+        a++
+        document.write("Now the value of a is:", (a), "<br>", "<br>") ;
+        a--
+        document.write("The value of --a is:", (a), "<br>") ;
+        document.write("Now the value of a is:", (a), "<br>", "<br>") ;
+        document.write("The value of a-- is:", (a), "<br>") ;
+        a--
+        document.write("Now the value of a is:", (a), "<br>", "<br>") ;
+   
+   
+     </script>
+   
+     <br>
+    
+     <h2>Q2</h2>
+    
+    
+    <script>
+        
+        let c = "2" ;
+        let b = "1" ;
+        result = (--c) - (--b) + (++b) + (b--) ;
+        document.write("a is: 2", "<br>", "b is: 1", "<br>",) ; 
+        document.write("result is:", (result)) ; 
+    
+      
+      </script>
+    
+     <br>
+    
+    
+    <script>
+        
+        
+        let username = prompt("Enter your Username",) ;
+        alert("Hello...") ; 
+
+      
+      </script>
+    
+      <br>
+    
+      <h2>Q3</h2>
+    
+    
+      <script>
+        
+        
+        let num = prompt("enter a number", "5") ;
+        let i = 5
+
+        document.write('<table border="3" cellspacing="3"') ;
+        for (i = 1; i <= 10; i++) {
+            document.write("<tr><td>" + num + "x" + i + "=" + num * i + "</td></tr>");
+
+        }
+    
+        </script>
+    
+        <br>
+
+        <h2>Q4</h2>
+
+        
+        <script>
+    
+            let maths = + prompt("Enter your maths marks");
+            let chemistry = + prompt("Enter your chemistry marks");
+            let physics = + prompt("Enter your physics marks");
+    
+            let totalMarks = 300;
+            let addTotalMarks = maths + chemistry + physics;
+            let percentage = addTotalMarks / totalMarks * 100;
+    
+            document.write("<h1>" + "Mark Sheet" + "</h1>")
+    
+            document.write("<h3>" + "chemistry: " + chemistry + "/100" + "</h3>")
+    
+            document.write("<h3>" + "physics: " + physics + "/100" + "</h3>")
+    
+            document.write("<h3>" + "maths: " + maths + "/100" + "</h3>")
+    
+    
+            document.write("<h3>" + "percentage: " + percentage + "%" + "</h3>")
+    
+            if (percentage >= 70) {
+                document.write("<h3>" + "Grade: A " + "</h3>")
+    
+            }
+    
+            else if (percentage >= 60) {
+                document.write("<h3>" + "Grade: B " + "</h3>")
+    
+            }
+    
+            else if (percentage >= 50) {
+                document.write("<h3>" + "Grade: C " + "</h3>")
+    
+            } else {
+                document.write("<h3>" + "Grade: Fail " + "</h3>")
+            }
+        </script>
+       
+</body>
+</html>
